@@ -1,0 +1,27 @@
+body {
+  background-color: #efefef;
+}
+.navbar {
+  color: #333;
+  background-color: #fff;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.3);
+}
+.navbar-nav {
+  margin-left: 300px;
+}
+.text-dark {
+  font-weight: 700;
+}
+.icons {
+  justify-content: space-between;
+  align-items: center;
+}
+.list-icon {
+  list-style-type: none;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 100px;
+}
+.bi-heart {
+  font-weight: 700;
+}
