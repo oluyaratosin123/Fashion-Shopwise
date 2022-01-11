@@ -1,6 +1,7 @@
 body {
   background-image: url(./assets/cart2.jpeg);
   background-size: cover;
+  background-position: center;
   min-height: 100vh;
   padding-top: 4.5rem;
 }
@@ -25,7 +26,7 @@ body {
   width: 100px;
 }
 .header-section {
-  background-color: rgba(51, 51, 51, 0.575);
+  background-color: rgba(51, 51, 51, 0.781);
   height: 100vh;
   padding: 0;
 }
@@ -67,6 +68,10 @@ body {
 .home-page-footer-disabled  {
   color: #d3d3d3;
 }
+/* .policy-header-section {
+  height: 100vh;
+  background-color: yellow;
+} */
 @media (min-width: 768px) {
   body {
     background-image: url(./assets/cart2.jpeg);
@@ -75,8 +80,8 @@ body {
     padding-top: 4.5rem;
   }
   .navbar {
-    color: #333;
-    background-color: #fff;
+    color: #fff;
+    background-color: #333;
     box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.3);
   }
   .navbar-brand {
@@ -109,13 +114,10 @@ body {
   }
   .nav-link {
     font-size: 17px;
-    color: #333;
+    color: #efefef;
   }
   .nav-link:hover {
-    color: #333;
-  }
-  .nav-link:hover {
-    border-bottom: 3px solid #333;
+    border-bottom: 3px solid red;
   }
   .seperator {
     height: 3px;
